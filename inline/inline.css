@@ -1,0 +1,488 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.wrap {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    z-index: 10;
+}
+
+.container {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 15px;
+}
+
+.inline-logo img{
+  width: 65px;
+  margin-left: 100px;
+}
+
+.wrap-menu ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  margin-left: 300px;
+  
+}
+
+.wrap-menu a {
+  text-decoration: none;
+  color: #555;
+  font-size: 13px;
+  font-weight: bold;
+}
+.wrap-menu a:hover {
+  color: #007aff;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin: 0 auto;
+    padding: 20px 0;
+    justify-content: center;
+    
+    
+}
+
+.menu a {
+    text-decoration: none;
+    color: #555;
+    font-size: 13px;
+    font-weight: bold;
+}
+.menu a:hover {
+    color: #007aff;
+}
+
+.logo-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 20px;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.h1 {
+  font-size: 30px;
+}
+
+.reservation {
+    padding: 10px 40px;
+    background-color: #da3743;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 80px;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+.wpb-wrapper {
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+    align-items: center;
+    gap: 40px;
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 99%, white 100%),url('../inline/pics/New-official-website_v2_首圖.png') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+span {
+  color: #EC6337;
+}
+.red {
+  color: red;
+}
+
+.text-btn {
+  padding: 10px 30px;
+  border-radius: 10px;
+  background-color: #064c8c;
+  color: white;
+  border: none;
+
+}
+
+.wpb-row img,
+.iconbox-img img {
+    height: auto;
+    max-width: 90%;
+    text-align: center;
+    margin-left: 60px;
+}
+.wpb-text-column {
+    max-width: 100%;
+    padding: 20px;
+    margin-right: 200px;
+}
+
+.map-section {
+    background-image: url('../inline/pics/New-official-website_v2_country.png'); 
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    padding: 80px 20px;
+    color:#555; 
+    z-index: 1;
+    height: 400px;
+  }
+
+  
+  .map-text h2 {
+    font-size: 32px;
+    margin-bottom: 8px;
+    color: #101010;
+  }
+  
+  .map-text p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .country-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+  }
+  
+  .country {
+    padding: 8px 16px;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 20px;
+    font-size: 16px;
+  }
+
+.wpb-wrap {
+    padding: 40px 0;
+    min-height: 300px;
+    text-align: center;
+}
+  .wpb-reservation {
+    background: url('../inline/pics/New-official-website_v2_hp_background1.png');
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+  }
+
+
+
+  .iconbox-group,
+  .iconbox-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .iconbox {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    overflow: hidden;
+    width: 70%;
+  }
+
+  .iconbox-icon  img{
+    width: 44px;
+    height: 44px;
+    margin-bottom:30px;
+  }
+
+  .iconbox-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #064C8C;
+}
+
+.wpb-reservation.reverse {
+  flex-direction: row-reverse;
+  height: auto;
+}
+
+.custom-section .iconbox-group{
+  padding: 40px;
+  margin-left: 100px;
+}
+.custom-section .iconbox {
+  width: 100%;
+}
+
+
+.outer-wrapper {
+  background: url('../inline/pics/New-official-website_v2_hp_background2.png');
+  background-size: cover;
+  padding: 200px 0;
+}
+
+
+.outer-wrapper .wpb-reservation {
+  background: none;
+}
+
+.outer-wrapper .wpb-reservation .iconbox-img  img{
+  max-width: 560px;
+  padding: 20px;
+}
+
+.logo-wrapper {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;         
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.logo {
+  display: flex;
+  max-width: 186px;
+  max-height: 149px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: 10px;
+  transition: transform 0.3s ease;
+}
+
+.logo img {
+  max-width: 150px;
+  width: 150px;
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.2) translateY(-5px);
+}
+
+.inline-text {
+  padding: 50px 0;
+  text-align: center;
+}
+
+
+.form-background {
+  background: url('../inline/pics/New-official-website_v2_form_background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.form-body {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-bottom: 12px;
+  font-family: "Microsoft JhengHei", sans-serif;
+  border-radius: 10px;
+  text-align: center;
+  background-color: white;
+}
+
+.form {
+  max-width: 700px;
+  margin: 50px auto;
+  height: auto;
+  padding: 20px;
+  margin-bottom: 12px;
+  font-family: "Micrososft jhenghei", sans-serif;
+}
+
+.form-text {
+  margin-bottom: 20px;
+  padding: 40px 0;
+}
+
+label,
+input {
+  display: block;
+  max-width: 480px;
+  margin: 0 auto;
+  font-size: 14px;
+}
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-top: 10px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: white;
+  max-width: 480px;
+  text-align: center;
+  text-align-last: center;
+  margin: 0 auto;
+  gap: 10px;
+}
+
+.form-img  img{
+  max-width: 250px;
+  width: 250px;
+  display: block;
+  margin-left: 90px;
+}
+
+
+.form-button {
+  width: 80px;
+  background-color: #EC6337;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  margin: 0 auto;
+  
+  
+}
+
+.form-button:hover {
+  background-color: #D95A2E;
+}
+
+.form-footer {
+  font-size: 10px;
+  padding: 10px 0;
+}
+
+.contact-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 20px;
+  width: 1200px;
+}
+.contact {
+  max-width: 560px;
+  width: 560px;
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+}
+.contact-text {
+  font-size: 14px;
+  padding: 20px 0;
+  line-height: 30px;
+}
+
+.contact h4,
+.contact-tel {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.contact-btn {
+  font-size: 14px;
+  padding: 10px 30px;
+  background-color: #EC6337;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+
+.divider {
+  width: 1px;
+  background-color: #ccc;
+  align-self: stretch;
+}
+.feature-select,
+.source-select,
+.country-select {
+  padding: 10px 0;
+}
+
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #252932;
+  color: #E3E6ED;
+  font-size: 12px;
+  height: 770px;
+  gap: 20px;
+  padding: 40px 0;
+}
+
+h5 {
+  font-size: 13px;
+}
+
+.contact-info p{
+  font-size: 11px;
+
+}
+
+.contact-info,
+.nav-links,
+.misc-info,
+.social {
+  width: 260px;
+}
+
+.nav-links ul,
+.misc-info ul,
+.social ul,
+.info-title ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section.nav-links ul li,
+.footer-section.misc-info ul li  {
+  width: 250px;
+  max-width: 250px;
+  height: 30px;
+  max-height: 30px;
+  margin-left: 10px;
+  padding: 20px 0;
+  border-bottom: 1px solid #555;
+  display: flex;
+  align-items: center;
+}
+
+
+.footer-section.info-title ul li{
+  height: 20px;
+}
+
+.nav-links li a,
+.misc-info li a,
+.social li a,
+.company-info li a {
+  color: white;
+  text-decoration: none;
+}
