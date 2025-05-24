@@ -1,123 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>33_林欣雨</title>
-    <link rel="stylesheet" href="FROM.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>33_林欣雨</title>
+  <link rel="stylesheet" href="FROM.css" />
 </head>
 <body>
-    <form action="google-search" method="get">
-        <body>
-        <div class="top">
-            <h1>F2E02表單練習</h1>
-        </div>
-        </body>
-    <div class="section">
-        <label>
-            <h2>姓名</h2>
-        <input type="text" placeholder="您的回答" id="">
-        </label>
+  <form action="#" method="get">
+    <div class="top">
+      <h1>F2E02 表單練習</h1>
     </div>
-    <div class="section">
-        <label>
-            <h2>信箱</h2>
-        <input type="text" placeholder="您的回答" id="email">
-        </label>
-    </div>
-    <div class="section">
-        <label>
-            <h2>生日</h2>
-         <div>
-         <input type="date" id="birthday">
-         </div>
-        </label>
-    </div>
-    <div class="section">
-        <label>
-            <h2>想跟老師說悄悄話</h2>
-        <input type="text" placeholder="您的回答" id="whisper"></textarea>
-        </label>
-    </div>
-    <div class="section">
-        <h2>喜歡的顏色</h2>
-        <label>
-            <div>
-            <input type="radio" name="choice"value="黃色" id="colors1">
-            黃色
-            </div>
-        </label>
-        <label>
-            <div>
-            <input type="radio" name="choice" value="綠色" id="colors2">
-            綠色
-            </div>
-        </label>
-        <label>
-            <div>
-            <input type="radio" name="choice" value="紅色" id="colors3">
-            紅色
-            </div>
-        </label>
-    </div>
-    <div class="section">
-        <h2>喜歡的飲食類型</h2>
-        <label>
-            <div>
-            <input type="checkbox" value="中式" id="diet-type">
-            中式
-            </div>
-        </label>
-        <label>
-            <div>
-            <input type="checkbox"  value="義式" id="diet-type">
-            義式
-            </div>
-        </label>
-        <label>
-            <div>
-            <input type="checkbox"  value="日式" id="diet-type">
-            日式
-            </div>
-        </label>
-        <label>
-            <div>
-            <input type="checkbox"  value="韓式" id="diet-type">
-            韓式
-            </div>
-        </label>
-        <labeL>
-            <div>
-            <input type="checkbox"  value="美式" id="diet-type">
-            美式
-            </div>
-        </label>
-        <label>
-            <div>
-            <input type="checkbox"  value="泰式" id="diet-type">
-            泰式
-            </div>
-        </label>
-    </div>
-    <div class="section">
-        <h2>最想去的國家</h2>
-        <div>
-        <select>
-            <option value="日本">日本</option>
-            <option value="韓國">韓國</option>
-            <option value="泰國">泰國</option>
-            <option value="德國">德國</option>
-            <option value="英國">英國</option>
-            <option value="加拿大">加拿大</option>
-            <option value="美國">美國</option>
-        </select>
-        </div>
-    </div>
-    <button>提交</button>
-    <button type="reset">清除表單</button>
-        
 
-    </form>
-    
+    <div class="section">
+      <label for="name">
+        <h2>姓名</h2>
+        <input type="text" id="name" placeholder="您的回答" />
+      </label>
+    </div>
+
+    <div class="section">
+      <label for="email">
+        <h2>信箱</h2>
+        <input type="email" id="email" placeholder="您的回答" />
+      </label>
+    </div>
+
+    <div class="section">
+      <label for="birthday">
+        <h2>生日</h2>
+        <input type="date" id="birthday" />
+      </label>
+    </div>
+
+    <div class="section">
+      <label for="whisper">
+        <h2>想跟老師說悄悄話</h2>
+        <textarea id="whisper" placeholder="您的回答"></textarea>
+      </label>
+    </div>
+
+    <div class="section">
+      <h2>喜歡的顏色</h2>
+      <label><input type="radio" name="color" value="黃色" /> 黃色</label>
+      <label><input type="radio" name="color" value="綠色" /> 綠色</label>
+      <label><input type="radio" name="color" value="紅色" /> 紅色</label>
+    </div>
+
+    <div class="section">
+      <h2>喜歡的飲食類型</h2>
+      <label><input type="checkbox" value="中式" id="diet-chinese" /> 中式</label>
+      <label><input type="checkbox" value="義式" id="diet-italian" /> 義式</label>
+      <label><input type="checkbox" value="日式" id="diet-japanese" /> 日式</label>
+      <label><input type="checkbox" value="韓式" id="diet-korean" /> 韓式</label>
+      <label><input type="checkbox" value="美式" id="diet-american" /> 美式</label>
+      <label><input type="checkbox" value="泰式" id="diet-thai" /> 泰式</label>
+    </div>
+
+    <div class="section">
+      <h2>最想去的國家</h2>
+      <select>
+        <option value="日本">日本</option>
+        <option value="韓國">韓國</option>
+        <option value="泰國">泰國</option>
+        <option value="德國">德國</option>
+        <option value="英國">英國</option>
+        <option value="加拿大">加拿大</option>
+        <option value="美國">美國</option>
+      </select>
+    </div>
+
+    <div class="section btn-group">
+      <button type="submit">提交</button>
+      <button type="reset">清除表單</button>
+    </div>
+  </form>
 </body>
 </html>
