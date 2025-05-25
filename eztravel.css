@@ -1,0 +1,374 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+/* 導覽列 */
+.navbar {
+  background-color: #fff;
+  padding: 10px 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar .topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  padding-bottom: 0.5em;
+}
+
+.navbar .logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #00b86b;
+}
+
+.menu {
+  margin-top: 10px;
+  display: flex;
+  gap: 50px;
+  font-weight: bold;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+select {
+  border: none;
+  outline: none;
+  font-size: 14px;
+  padding: 4px 12px;
+  background-color: transparent;
+}
+
+.links a{
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 8px;
+  transition: background 0.3s;
+  background-color: #00b86b;
+}
+
+/* Hero 區塊 */
+
+/* 搜尋區背景 */
+.search-area {
+  background-image: url('https://static.cdn-eztravel.com/assets/images/hpimg/banner/hp.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 50px 20px;
+  color: #fff;
+}
+
+/* 搜尋框白底卡片 */
+.search-box {
+  background-color: #fff;
+  color: #333;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+
+
+/* 大標題 */
+.search-area h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 24px;
+  padding: 0 0 0 150px;
+}
+
+/* 上方功能選單 */
+.nav-options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  gap: 12px;
+}
+
+.nav-btn a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  padding: 10px 16px;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.nav-btn a:hover {
+  background-color: #e5f2ff;
+}
+
+
+
+
+.travel-options-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.travel-section {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.region-selector {
+  display: flex;
+  gap: 10px;
+}
+
+.region-selector a {
+  padding: 5px 20px;
+  background-color: #eee;
+  border-radius: 20px;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.region-selector a:hover {
+  background-color: #00c58e;
+  color: white;
+}
+
+.trip-type-options {
+  display: flex;
+  gap: 20px;
+}
+
+.ez-radio {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.additional-options .bundle-tag {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.badge {
+  background-color: #ff5f5f;
+  color: white;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+/* 中間搜尋欄五格 */
+.search-fields-row {
+  display: flex;
+  background-color: #fff;
+  border: 1px solid #00b86b;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.field-group {
+  display: flex;
+  flex: 2;
+  border-right: 1px solid #ccc; 
+}
+
+.field {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+}
+
+.field-group .field:first-child {
+  border-left: none;
+}
+
+.search-fields-row > .field:last-child {
+  flex: 1;
+  padding: 12px;
+  border-left: 1px solid #ccc;
+}
+
+.field label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+/* 下拉與 checkbox區 */
+.search-bottom-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.select-options {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+}
+
+.select-options label {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.select-options select {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  min-width: 120px;
+}
+
+
+.search-input {
+  border: none;
+  font-size: 14px;
+  outline: none;
+  background: transparent;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #00c58e;
+  box-shadow: 0 0 0 2px rgba(0, 197, 142, 0.2);
+}
+
+/* 下方偏好選項 */
+.search-preferences {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  align-items: center;
+}
+
+.ez-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.switch-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 8px;
+  font-size: 18px;
+  color: #888;
+}
+
+.search-btn-wrapper {
+  margin-left: auto;
+  padding-right: 0;
+}
+
+.search-btn {
+  padding: 12px 32px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #00c58e;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.search-btn:hover {
+  background-color: #00a974;
+}
+
+.banner-slider {
+  background-color: #f3f9fc;
+  padding: 24px 0;
+}
+
+.banner-wrapper img {
+  width: 100%;
+  max-width: 1100px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 12px;
+}
+
+.thumbnail-row {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.thumbnails {
+  display: flex;
+  gap: 16px;
+  overflow: hidden;
+  width: 100%;
+  padding: 16px 48px; /* 預留左右箭頭空間 */
+}
+
+.thumbnails img {
+  flex: 1;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: white;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 50%;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  z-index: 2;
+}
+
+.arrow.left {
+  left: 0;
+}
+
+.arrow.right {
+  right: 0;
+}
+

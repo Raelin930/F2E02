@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>易遊網</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="eztravel.css">
+</head>
+<body>
+  <!-- 導覽列 -->
+  <header class="navbar">
+    <div class="container">
+      <div class="topbar">
+        <div class="logo">ezTravel 易遊網</div>
+        <div class="links">
+          <a href="#">登入</a> | <a href="#">註冊</a>
+        </div>
+      </div>
+      <nav class="menu">
+        <a href="#">搜尋機票</a>
+        <a href="#">找住宿</a>
+        <a href="#">訂機酒</a>
+        <a href="#">玩世界</a>
+        <a href="#">瘋台灣</a>
+        <a href="#">搭遊輪</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero 區塊 -->
+  <section class="search-area">
+    <h1>啟動你的旅程</h1>
+    <div class="search-box">
+
+      <div class="nav-options">
+        <div class="nav-btn"><a href="#">機票</a></div>
+        <div class="nav-btn"><a href="#">訂房</a></div>
+        <div class="nav-btn"><a href="#">國外旅遊</a></div>
+        <div class="nav-btn"><a href="#">國內旅遊</a></div>
+        <div class="nav-btn"><a href="#">機加酒</a></div>
+        <div class="nav-btn"><a href="#">票券當地遊</a></div>
+        <div class="nav-btn"><a href="#">郵輪</a></div>
+      </div>
+      <div class="travel-options-row">
+        <div class="travel-section">
+          <div class="region-selector">
+            <a href="#">國外</a>
+            <a href="#">國內</a>
+          </div>
+          <div class="trip-type-options">
+            <label class="ez-radio"><input type="radio" name="trip-type"> <span>來回</span></label>
+            <label class="ez-radio"><input type="radio" name="trip-type"> <span>單程</span></label>
+            <label class="ez-radio"><input type="radio" name="trip-type"> <span>多行程</span></label>
+          </div>
+        </div>
+      
+        <div class="additional-options">
+          <div class="bundle-tag">
+            <span class="badge">一起訂・最高省8%</span>
+            <label><input type="checkbox"> 機＋酒</label>
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="search-fields-row">
+        <div class="field-group">
+          <div class="field">
+            <label for="from">出發地</label>
+            <input id="from" type="text" class="search-input" placeholder="TPE 台北(任何)">
+          </div>
+          <div class="switch-icon">⇄</div>
+          <div class="field">
+            <label for="to">目的地</label>
+            <input id="to" type="text" class="search-input" placeholder="輸入國家／城市/機場關鍵字">
+          </div>
+        </div>
+        <div class="field-group">
+          <div class="field">
+            <label for="departure">去程</label>
+            <input id="departure" type="text" class="search-input" placeholder="請選擇">
+          </div>
+          <div class="switch-icon">⭢</div>
+          <div class="field">
+            <label for="return">回程</label>
+            <input id="return" type="text" class="search-input" placeholder="請選擇">
+          </div>
+        </div>
+        <div class="field">
+          <label for="passengers">人數</label>
+          <input id="passengers" type="text" class="search-input" placeholder="1成人 • 0孩童 • 0嬰兒">
+        </div>
+      </div>
+
+      <div class="search-bottom-row">
+        <div class="search-preferences">
+          <label>
+            <select>
+              <option value="" disabled selected>航空公司偏好</option>
+              <option>長榮</option>
+              <option>華航</option>
+            </select>
+          </label>
+          <label>
+            <select>
+              <option value="" disabled selected>艙等</option>
+              <option>經濟艙</option>
+              <option>商務艙</option>
+            </select>
+          </label>
+          <label class="ez-checkbox">
+            <input type="checkbox" class="checkbox">
+            <span>直飛</span>
+          </label>
+          <label class="ez-checkbox">
+            <input type="checkbox" class="checkbox">
+            <span>比較7天最低價</span>
+          </label>
+        </div>
+        <div class="search-btn-wrapper">
+          <button class="search-btn">搜尋</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--放粽玩一夏卡片區塊-->
+  <section class="banner-slider">
+  <div class="banner-wrapper">
+    <img src="https://image.cdn-eztravel.com.tw/YMRfePDPZ17QqXs1ssiIItF0c_-gmRzXOKQRZIXJyBU/g:ce/q:95/aHR0cHM6Ly9ldmVudC5jZG4tZXp0cmF2ZWwuY29tLnR3L2hwaW1nL2hwL2Jhbm5lci8xMTAweDEzMC8xMTAweDEzMF8yMDI1ZHVhbndvby5qcGc.jpg" alt="端午連假">
+  </div>
+
+  <div class="thumbnail-row">
+    <button class="arrow left">❮</button>
+
+    <div class="thumbnails">
+      <img src="https://image.cdn-eztravel.com.tw/t-r29tu2_otJORQ6yXs97SkKgg4oCC99JUMZobYz4Po/g:ce/q:95/aHR0cHM6Ly9ldmVudC5jZG4tZXp0cmF2ZWwuY29tLnR3L2hwaW1nL2hwL2Jhbm5lci8zNTZ4MTMwLzM1NngxMzBfMjAyNXNhbnJpb18yNDEyMTEuanBn.jpg" alt="環島之星萌旅號">
+      <img src="https://image.cdn-eztravel.com.tw/s2iVfAIP8PB8telPzI3VIQ_Vgm2S15MUAfsVS46T1FQ/g:ce/q:95/aHR0cHM6Ly9ldmVudC5jZG4tZXp0cmF2ZWwuY29tLnR3L2hwaW1nL2hwL2Jhbm5lci8zNTZ4MTMwLzM1NngxMzBfbWF5ZGF5SEtzYWxlLmpwZw.jpg" alt="五月天香港">
+      <img src="https://image.cdn-eztravel.com.tw/in1tR4_Br6idreqy4fXcC8wi0iD_Usl-PSjKqt6JMPQ/g:ce/q:95/aHR0cHM6Ly9ldmVudC5jZG4tZXp0cmF2ZWwuY29tLnR3L2hwaW1nL2hwL2Jhbm5lci8zNTZ4MTMwL0FQUCVFOSVBNiU5NiVFOCVCMyVCQ18zNTZ4MTMwLmpwZw.jpg" alt="APP首購">
+    </div>
+
+    <button class="arrow right">❯</button>
+  </div>
+</section>
+
+
+
+
+</body>
+</html>
