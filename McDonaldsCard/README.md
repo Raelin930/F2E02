@@ -1,4 +1,4 @@
-# inline 餐廳訂位網站排版
+# McDonalds 卡片排版
 
 ## 簡介
 
